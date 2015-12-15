@@ -110,7 +110,7 @@ public class StudentDAL {
 	}
 	
 	@SuppressWarnings("finally")
-	public ArrayList<CourseObject> getAllCourse(int studentId) throws SQLException {
+	public ArrayList<CourseObject> getAllCourse(int studentID) throws SQLException {
 
 		sqlComm = "EXEC dbo.spSelect_AllAvaiableCoursesToStudent "+studentId;
 
